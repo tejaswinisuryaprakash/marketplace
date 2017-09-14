@@ -1,0 +1,39 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "storageAccountNewOrExisting": {
+      "value": "new"
+    },  
+    "storageAccountName": {
+      "value": "PANdevstorage"
+    },
+    "storageAccountType": {
+      "value": "Standard_LRS"
+    },
+    "authenticationType": {
+      "value": "password"
+    },
+    "virtualNetworkName": {
+      "value": "PANdev-vnet"
+    },
+    "virtualNetworkAddressPrefix": {
+      "value": "192.168.0.0/16"
+    },
+    "adminUsername": {
+      "value": "panadmin"
+    },
+    "adminPassword": {
+      "value": "P@loAlto123"
+    },
+    "publicIPAddressName": {
+      "value": "pandevdns"
+    },
+    "location": {
+      "value": "West US"
+    },
+    "baseUrl": {
+      "value": "https://raw.githubusercontent.com/tejaswinisuryaprakash/marketplace/master"
+    }
+  }
+}

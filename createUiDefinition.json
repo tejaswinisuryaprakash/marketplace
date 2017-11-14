@@ -25,7 +25,9 @@
                 "sshPublicKey": ""
               },
          "constraints": {
-                "required": true
+                "required": true,
+		"minLength": 2,
+                "maxLength": 3
               },
          "options": {
               "hideConfirmation": false

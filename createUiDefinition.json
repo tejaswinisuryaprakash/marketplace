@@ -26,7 +26,7 @@
               },
          "constraints": {
                 "required": true,
-                "customPasswordRegex": ""^[a-z0-9]{1,10}$"",
+                "customPasswordRegex": "^[a-z0-9]{1,10}$",
                 "customValidationMessage": "The password must contain at maximum of 31 characters"
               },
          "options": {

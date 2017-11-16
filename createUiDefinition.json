@@ -26,8 +26,8 @@
               },
          "constraints": {
                 "required": true,
-		"minLength": 2,
-                "maxLength": 3
+                "customPasswordRegex": "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z\\d]{8,}$",
+                "customValidationMessage": "The password must contain at maximum of 31 characters"
               },
          "options": {
               "hideConfirmation": false

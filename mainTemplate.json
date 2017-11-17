@@ -153,8 +153,8 @@
     "adminPassword": {
       "type": "securestring",
       "defaultValue": "",
-      "minLength": 12,
-      "maxLength": 31,	    
+      "minLength": "12",
+      "maxLength": "31",	    
       "metadata": {
         "description": "Password for the administrator account of VM-Series"
       }

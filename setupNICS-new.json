@@ -58,7 +58,7 @@
             "properties": {
               "privateIPAllocationMethod": "Dynamic",
               "publicIPAddress": {
-                 "id": "[resourceId((parameters('PublicIPRGName'),'Microsoft.Network/publicIPAddresses', parameters('publicIPAddressName'))]"
+                 "id": "[resourceId(parameters('PublicIPRGName'),'Microsoft.Network/publicIPAddresses', parameters('publicIPAddressName'))]"
               },
               "subnet": {
                 "id": "[variables('subnet0Ref')]"
